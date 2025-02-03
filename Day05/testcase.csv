@@ -1,0 +1,19 @@
+Test Case ID,Test Case Description,Preconditions,Test Steps,Expected Result
+TC01,Verify that the homepage loads successfully,None,1. Navigate to https://avion-lac.vercel.app/,Homepage displays with all elements loaded correctly
+TC02,Verify navigation to 'About us' page,None,1. Click on 'About us' link in the navigation menu,'About us' page is displayed with relevant content
+TC03,Verify navigation to 'Products' page,None,1. Click on 'Products' link in the navigation menu,'Products' page is displayed with a list of products
+TC04,Verify 'View collection' button on homepage,None,1. On the homepage, click the 'View collection' button,User is redirected to the 'Products' page
+TC05,Verify 'Sign Up' for newsletter,None,1. On the homepage, click the 'Sign Up' button under 'Join the club and get the benefits' section
+2. Enter a valid email address
+3. Submit the form,Confirmation message is displayed indicating successful subscription
+TC06,Verify product details display,None,1. Navigate to the 'Products' page
+2. Click on a product,Product details page displays with name, price, and description
+TC07,Verify 'View Collection' under 'New ceramics' section,None,1. On the homepage, scroll to 'New ceramics' section
+2. Click 'View Collection',User is redirected to the 'Products' page filtered for 'New ceramics'
+TC08,Verify 'View Collection' under 'Our popular products' section,None,1. On the homepage, scroll to 'Our popular products' section
+2. Click 'View Collection',User is redirected to the 'Products' page filtered for 'Popular products'
+TC09,Verify footer links,None,1. Scroll to the footer of any page
+2. Click on each link under 'Menu', 'Categories', and 'Our company' sections,Each link navigates to the correct page
+TC10,Verify 'Join our mailing list' subscription,None,1. Scroll to the footer
+2. Enter a valid email address in the 'Join our mailing list' section
+3. Submit the form,Confirmation message is displayed indicating successful subscription
